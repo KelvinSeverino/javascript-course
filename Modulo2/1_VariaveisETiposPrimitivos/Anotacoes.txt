@@ -1,0 +1,43 @@
+Cometarios usando // para unica linha ou /* */ para varias linhas
+
+Variaveis - No JS moderno, além de usar a palavra VAR para declarar, pode-se usar a palavra LET
+    vaga01 = carro // o sinal = significa recebe no JS
+    vaga01 = carro2 //recebe valor carro2 na variavel vaga01
+    vaga01 = null //deixa variavel vazia
+
+Declarando variaveis e recebendo valores
+    Podem começar com letra, $ ou _, 
+    não podem começar com numeros, 
+    É possivel usar letras ou numeros, 
+    É possivel usar acentos e simbolos,
+    Não podem conter espacos,
+    Não podem usar palavras reservadas do JS (Alert, Function...)
+        var n1 = 5
+        var n2 = 8.5
+        var n3 = 15
+
+        var s1 = 'javascript'
+        var s2 = 'Curso em video'
+        var s3 = 'Guanabara'
+
+Node.JS
+    Buscar o Node no iniciar, para sair declarar .exit
+    Para usar no VSCode
+
+Variaveis declaradas em maiscula em minuscula fazem diferença
+    var A = 10
+    var a = 15
+
+Tipos Primitivos
+    Numeros Inteiros = 5 18 -2 
+    Numeros com ponto flutuante = 0.5 -15.9 3.14 8.0
+        OBS.: Para o JS, todos os numeros acima são do tipo (number, Infinity ou NaN)
+    Cadeias de caracteres (string) = "Google" 'javascript' 
+    Boleanos (boolean) = true false
+    Ex: null, undefined, object (Array), Function
+Dicas
+Comando typeof = comando informa o tipo do var
+    var n = 200
+    typeof n // ira retornar number
+
+
