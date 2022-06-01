@@ -30,7 +30,7 @@ Variaveis declaradas em maiscula em minuscula fazem diferença
 
 Tipos Primitivos
     Numeros Inteiros = 5 18 -2 
-    Numeros com ponto flutuante = 0.5 -15.9 3.14 8.0
+    Numeros com ponto flutuante (REAL) = 0.5 -15.9 3.14 8.0
         OBS.: Para o JS, todos os numeros acima são do tipo (number, Infinity ou NaN)
     Cadeias de caracteres (string) = "Google" 'javascript' 
     Boleanos (boolean) = true false

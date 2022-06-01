@@ -1,0 +1,34 @@
+Concatenação em JS
+    var variavel = 'Kelvin'
+    alert('É um grande prazer te conhecer, ' + variavel)
+
+    + number + number + serve para adicao
+    + string + string serve para concatenacao
+
+Conversao para Number 
+    Comando:
+        Number.parseInt(n)
+        Number.parseFloat(n)
+        Number(n) -> Este comando faz a identificacao se e inteiro ou real
+
+Conversao para String 
+    Comando:
+        String(n)
+        n.toString(n)
+
+Formatando String
+    Concatenação de variaveis na string
+    Ex: 'O aluno ' + nome + ' tem ' + idade + ' e tirou a nota ' + nota
+
+    Templates Strings é a maneira mais atual e são funcionais usando acentos graves ``
+    Ex: `O aluno ${nome} tem ${idade} e tirou a nota ${nota}`
+
+Funcoes para String
+    s.length        //quantos caracteres a string tem
+    s.toUpperCase() //tudo para 'MAISCULAS'
+    s.toLowerCase() //tudo para 'minusculas'
+
+Funcoes para Number
+    n1.toFixed(2)                                                       //coloca duas casas decimais
+    n1.toFixed(2).replace('.', ',')                                     //coloca duas casas decimais e muda o ponto por virgula 
+    n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})    //converte o valor para a moeda informada
