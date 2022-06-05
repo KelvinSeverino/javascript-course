@@ -1,0 +1,77 @@
+JS possui varias familias de operadores
+    Ex: Aritimeticos -> 
+            Operadores de calculo -> +, -,*, /, %, **, 
+                divisao real possue virgula, utiliza-se o /
+                divisao inteira nao usa virgula, utiliza-se o % para resto da divisao inteira
+                operador de potencia **, ou seja 5 elevado a 2
+
+            Ordem de precedencia dos operadores
+                ()
+                **
+                * / %
+                + -
+
+            atribuição, 
+                var a = 5 + 3           => 8
+                var b = a % 5           => 3
+                var c = 5 * b ** 2      => 45
+                var d = 10 - a / 2      => 6
+                var e = 6 * 2 / d       => 2
+                var f = b % e + 4 / e   => 3
+
+                auto-atribuição
+                    var n = 3
+                    n = n + 4
+                    n = n - 5
+                    n = n * 4
+                    n = n / 2
+                    n = n ** 2
+                    n = n % 5
+                    pode-se simplificar a auto-atribuição com n += 4, n -= 5, etc, ou seja a mesma variavel se auto recebe
+
+                incremento
+                    var x = 5
+                    x = x + 1
+                    x = x - 1                
+                    para incrementar, pode-se utilizar o operador x++ ou x--
+                        pré-incremento ++x ou --x
+                        pós-incremento x++ ou x--
+
+            relacionais => , 
+                maior >
+                menor <
+                maior ou igual >=
+                menor ou igual<=
+                igual ==
+                diferente !=
+
+                Para toda expressao relacional, o resultado é booleano, ou seja, TRUE FALSE
+                    5 > 2 TRUE
+                    7 < 4 FALSE
+                    8 >= 8 TRUE
+                    9 <= 7 FALSE
+                    5 == 5 TRUE
+                    4 != 4 FALSE
+
+                    Obs.:
+                        5 == '5' TRUE, o sinal de igualdade nao testa o tipo, nesse caso ele analisa se o 5 tem o mesmo valor do outro, a grandeza
+                        5 === '5' operador de identidade, operador de igualdade restrita, nesse caso ele vai testar se os dois são identicos, mesmo valor e o tipo
+
+            logicos, 
+                negação        !
+                conjunção/E    &&
+                disjunção/OU   ||
+
+                Ordem de execução é ! && ||
+
+                Ordem de precedencia dos operadores
+                    () ** / ... Da esquerda pra direita
+                    > < >= ... Não possuem ordem
+                    ! && || Da esquerda pra direita
+
+            ternario
+                composto por dois simbolos ? e :
+                teste ? TRUE : FALSE
+                
+                    Ex: var nota = 5
+                        nota >= 6 ? 'Aprovado' : 'Reprovado'
