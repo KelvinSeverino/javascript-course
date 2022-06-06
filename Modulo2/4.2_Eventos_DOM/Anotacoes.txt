@@ -1,0 +1,12 @@
+Eventos DOM (https://developer.mozilla.org/pt-BR/docs/Web/Events)
+    mouseenter -> mouse entrou no elemento
+    mousemove -> mouse movendo dentro do elemento
+    mousedown -> clica e segura
+    mouseup -> soltando o botao do mouse
+    click -> apertar e soltar rapidamente
+    mouseout -> mouse saindo do elemento
+
+Funcões -> Conjunto de codigos/linhas que vão ser executadas somente quando ocorrer o evento dentro de um bloco  
+    function acao(parametros){
+        bloco
+    }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+
+    <style>
+        body {
+            background: grey;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando Estudos com DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em Javascript.</p>
+    <div id="msg" name="msg" class="msg">Clique aqui</div>
+    <br>
+
+    <script>
+        var corpo = window.document.body
+        //Selecionando primeiro paragrafo
+        //var p1 = window.document.getElementsByTagName('p')[0]
+
+        //Escrevendo no documento para exibir na tela
+        //window.document.write('Texto: ' + p1.innerText + '<br>')
+        //window.document.write('Formatado: ' + p1.innerHTML)
+
+        /*
+        //Selecionando DIV pelo ID
+        var d = window.document.getElementById('msg')
+        //Sobrescrevendo texto
+        d.innerText = 'Estou aguardando...'
+        */
+
+        /*
+        //Selecionando DIV pelo NAME
+        var d = window.document.getElementsByName('msg')[0]
+        //Sobrescrevendo texto
+        d.innerText = 'Olá'   
+        */      
+       
+        //Selecionando DIV usando querySelector
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'blue'
+
+    </script>
+</body>
+</html>
