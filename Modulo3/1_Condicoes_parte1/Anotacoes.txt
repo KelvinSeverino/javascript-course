@@ -1,0 +1,10 @@
+estrutura if -> se, ou seja, se a condicao seja verdadeira
+    if (condicao){
+        TRUE
+    }
+estrutura else -> se não, caso a condicao seja falsa
+    else{
+        FALSE
+    }
+
+    Obs.: Uma condição SIMPLES, só possui um IF, já uma condição COMPOSTA possui IF, ELSE

@@ -6,6 +6,8 @@ Eventos DOM (https://developer.mozilla.org/pt-BR/docs/Web/Events)
     click -> apertar e soltar rapidamente
     mouseout -> mouse saindo do elemento
 
+Bloco -> Um conjunto de codigo que fica entre um par de chaves {}
+
 Funcões -> Conjunto de codigos/linhas que vão ser executadas somente quando ocorrer o evento dentro de um bloco  
     function acao(parametros){
         bloco
