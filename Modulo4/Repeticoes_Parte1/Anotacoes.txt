@@ -1,0 +1,14 @@
+Estruruas de Controle
+    Sequencia (Sequencial A, B, C)
+    Condicoes (Testes Logicos para realizar validacoes)
+        IF, ELSE IF, ELSE
+    Repeticoes (Laços, começa como uma condição, verificando TRUE e FALSE, aonde ele ira verificar TRUE e ficar em loop até a condicao ser FALSA)
+        WHILE -> ira executar enquanto a condicao for TRUE, quando for FALSE ele sai do WHILE
+            while(condicao){
+                
+            } 
+
+        DO-WHILE -> Executa o bloco primeiro e depois verifica a condicao, ou seja, o primeiro laco é sempre rodado
+            do{
+
+            }while(condicao) 
