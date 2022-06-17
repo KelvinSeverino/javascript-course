@@ -1,0 +1,5 @@
+Estruruas de Repetição
+    FOR -> inicializa, realiza teste e ser for TRUE, ele executa o bloco e volta pra cima já realizando o incremento, e ai verifica o teste e continua até ser FALSE
+    for(inicio; teste; incremento){
+
+    }
