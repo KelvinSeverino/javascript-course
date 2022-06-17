@@ -1,0 +1,18 @@
+Condicoes Aninhadas
+    Condicoes compostas com outras condicoes dentro dela
+    if e else if
+
+Condicoes Multiplas
+    Condicoes usadas para valores fixos, e nao intervalos...ou seja funciona com numeros inteiros e caracteres
+        switch-case
+            Ex:
+            switch(expressao)
+            {
+                case valor1:
+                    break
+                case valor2:
+                    break
+                default:
+                    break
+            }
+        sempre finalizar os blocos com break

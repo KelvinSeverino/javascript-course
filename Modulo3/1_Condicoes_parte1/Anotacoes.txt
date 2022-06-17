@@ -8,3 +8,9 @@ estrutura else -> se não, caso a condicao seja falsa
     }
 
     Obs.: Uma condição SIMPLES, só possui um IF, já uma condição COMPOSTA possui IF, ELSE
+
+O Javascript tem dois tipos de operadores de igualdade: 
+    igualdade fraca ou abstrata (==) e igualdade estrita (===). 
+        A recomendação é de sempre usar esta última.
+            Uma comparação estrita (usando, ===) só é válida se os operandos forem do mesmo tipo e se o conteúdo de ambos corresponderem. 
+            A comparação abstrata (usando, ==), é mais comum, mas ela transforma(converte) os operandos antes da comparação, e isso pode gerar incontáveis problemas.
