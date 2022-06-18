@@ -1,0 +1,9 @@
+Funcao -> Funcionamento da Função tem...
+    Chamada
+    Parametro
+    Ação
+    Retorno
+    
+Obs.: 
+    São ações executadas assim que são chamadas ou em dcorrencia de algum evento.
+    Uma funcao pode receber parametros e pode retornar um resultado
