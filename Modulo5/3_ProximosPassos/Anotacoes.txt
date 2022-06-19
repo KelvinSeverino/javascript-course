@@ -1,0 +1,18 @@
+Próximos passos a serem estudados
+    Lado Cliente
+        Aprofundar functions
+        Js Funcional
+        objetos
+        modularização
+        RegEx - Expressoes Regulares
+        JSON
+        AJAX
+    Lado Server
+        NodeJS
+
+Objetos
+    Array = limita os indices a numeros
+    let num = [5,8,4]
+
+    Objeto - possibilita colocar o inidice com outro identificador, ao inves do numero, também podem guardar funcionalidades, ou seja, functions
+    let amigo = {nome:'jose', sexo:'m', peso:85.4, engordar(p){}}
